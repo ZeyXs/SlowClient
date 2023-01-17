@@ -1,0 +1,92 @@
+{
+  "startedEpoch": 1672491414005,
+  "endedEpoch": 1672491419998,
+  "durationMs": 5992,
+  "heap": {
+    "allocationRateBytesPerSecond": 6.33339904E7,
+    "gcCount": 2,
+    "gcOverHeadPercent": 0.20226969,
+    "gcTotalDurationMs": 1212
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.002509340737015009,
+      "max": 0.0041806017979979515
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.341271185874939,
+      "max": 0.46321070194244385
+    },
+    "system": {
+      "min": 0.0,
+      "average": 0.40802507400512694,
+      "max": 0.5401337742805481
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 1656,
+      "count": 10,
+      "bytesPerSecond": 331.2,
+      "countPerSecond": 2.0,
+      "topContributors": [
+        {
+          "path": "logs/debug.log",
+          "totalBytes": 769
+        },
+        {
+          "path": "logs/latest.log",
+          "totalBytes": 397
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 3466,
+      "count": 5,
+      "bytesPerSecond": 693.2,
+      "countPerSecond": 1.0,
+      "topContributors": [
+        {
+          "path": "/home/basile/Documents/Programmation/Java/SlowClient/.gradle/loom-cache/1.19.3/net.fabricmc.yarn.1_19_3.1.19.3+build.1-v2/minecraft-project-@-merged-named.jar",
+          "totalBytes": 3210
+        },
+        {
+          "path": "/dev/urandom",
+          "totalBytes": 256
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 6.96066,
+    "averageMs": 42.357806800000006,
+    "maxMs": 86.136608,
+    "p99": 85.61190976,
+    "p90": 80.8896256,
+    "p75": 73.019152,
+    "p50": 24.256048
+  },
+  "threadAllocation": [],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2023-01-17 21:17:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:eroded_badlands": "2023-01-17 21:16:06 +0100",
+      "minecraft:desert": "2023-01-17 21:19:06 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2023-01-17 21:17:49 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3218
+}

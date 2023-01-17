@@ -1,0 +1,270 @@
+[21:15:06] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.3 with Fabric Loader 0.14.11
+[21:15:06] [main/INFO] (FabricLoader) Loading 45 mods:
+	- fabric-api 0.68.1+1.19.3
+	- fabric-api-base 0.4.19+8d1895cf72
+	- fabric-api-lookup-api-v1 1.6.18+49abcf7e72
+	- fabric-biome-api-v1 12.0.0+689f5e7172
+	- fabric-block-api-v1 1.0.3+12bfe4ea72
+	- fabric-blockrenderlayer-v1 1.1.28+c6af733c72
+	- fabric-client-tags-api-v1 1.0.9+49abcf7e72
+	- fabric-command-api-v2 2.1.15+49abcf7e72
+	- fabric-content-registries-v0 3.4.11+49abcf7e72
+	- fabric-convention-tags-v1 1.1.9+2894d6df72
+	- fabric-crash-report-info-v1 0.2.12+aeb40ebe72
+	- fabric-data-generation-api-v1 11.0.1+65e415cb72
+	- fabric-dimensions-v1 2.1.39+48349a3f72
+	- fabric-entity-events-v1 1.5.5+b83334a072
+	- fabric-events-interaction-v0 0.4.37+422b77fb72
+	- fabric-game-rule-api-v1 1.0.28+2894d6df72
+	- fabric-gametest-api-v1 1.1.13+12a01b0672
+	- fabric-item-api-v1 2.1.4+fa25da9972
+	- fabric-item-group-api-v1 2.1.6+b7096da872
+	- fabric-key-binding-api-v1 1.0.28+aaaf9d3372
+	- fabric-lifecycle-events-v1 2.2.8+2894d6df72
+	- fabric-loot-api-v2 1.1.17+75e9821172
+	- fabric-message-api-v1 5.0.12+6ede1da972
+	- fabric-mining-level-api-v1 2.1.28+49abcf7e72
+	- fabric-models-v0 0.3.25+11ba9c3b72
+	- fabric-networking-api-v1 1.2.14+d9ac3c3972
+	- fabric-object-builder-api-v1 5.1.6+49abcf7e72
+	- fabric-particles-v1 1.0.18+fbde993d72
+	- fabric-registry-sync-v0 2.0.1+2608564672
+	- fabric-renderer-api-v1 2.1.0+2063beff72
+	- fabric-renderer-indigo 0.6.23+11ba9c3b72
+	- fabric-rendering-data-attachment-v1 0.3.23+48349a3f72
+	- fabric-rendering-fluids-v1 3.0.16+3067f46372
+	- fabric-rendering-v1 1.11.7+49abcf7e72
+	- fabric-resource-conditions-api-v1 2.2.0+280be3ab72
+	- fabric-resource-loader-v0 0.10.2+f6c919d672
+	- fabric-screen-api-v1 1.0.38+8c84281072
+	- fabric-screen-handler-api-v1 1.3.10+689f5e7172
+	- fabric-sound-api-v1 1.0.6+75e9821172
+	- fabric-transfer-api-v1 2.1.11+28ac448f72
+	- fabric-transitive-access-wideners-v1 2.1.0+0efcd39b72
+	- fabricloader 0.14.11
+	- java 17
+	- minecraft 1.19.3
+	- slowclient 1.19.3-alpha-0.1
+[21:15:07] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/basile/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[21:15:07] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[21:15:07] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[21:15:07] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[21:15:08] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:/home/basile/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/oshi.properties, jar:file:/home/basile/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/oshi.properties]
+[21:15:08] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:/home/basile/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/oshi.architecture.properties, jar:file:/home/basile/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.2.2/54f5efc19bca95d709d9a37d19ffcbba3d21c1a6/oshi-core-6.2.2.jar!/oshi.architecture.properties]
+[21:15:11] [main/INFO] (Minecraft) Building optimized datafixer
+[21:15:15] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:15:16] [Render thread/ERROR] (fabric-screen-api-v1) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[authlib-3.16.29.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:709) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:504) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:185) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:56) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:87) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.16.29.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.16.29.jar:?]
+	... 10 more
+[21:15:16] [Render thread/INFO] (fabric-screen-api-v1) Setting user: Player339
+[21:15:17] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[21:15:18] [Render thread/INFO] (fabric-screen-api-v1) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[21:15:21] [Render thread/WARN] (Minecraft) ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: libflite.so.1: Ne peut ouvrir le fichier d'objet partagé: Aucun fichier ou dossier de ce type
+	at com.sun.jna.Native.open(Native Method) ~[jna-5.12.1.jar:5.12.1 (b0)]
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:283) ~[jna-5.12.1.jar:5.12.1 (b0)]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar:5.12.1 (b0)]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar:5.12.1 (b0)]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) ~[text2speech-1.13.9.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) ~[text2speech-1.13.9.jar:?]
+	at net.minecraft.client.util.NarratorManager.<init>(NarratorManager.java:33) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:634) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:185) ~[minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:56) ~[minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) ~[fabric-loader-0.14.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.14.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[21:15:21] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, Fabric Mods (Fabric Renderer API (v1), Fabric Particles (v1), Fabric Message API (v1), Fabric Resource Loader (v0), Fabric Loot API (v2), Fabric Convention Tags, Fabric Rendering (v1), Fabric Biome API (v1), Fabric Registry Sync (v0), Fabric Command API (v2), Fabric Sound API (v1), Fabric Networking API (v1), Fabric Mining Level API (v1), Fabric Rendering Fluids (v1), Fabric Item Group API (v1), Fabric Key Binding API (v1), Fabric Dimensions API (v1), Fabric Renderer - Indigo, Fabric Loader, Fabric Models (v0), Fabric API Lookup API (v1), Fabric Data Generation API (v1), SlowClient, Fabric Client Tags, Fabric Game Test API (v1), Fabric Events Interaction (v0), Fabric Game Rule API (v1), Fabric Crash Report Info (v1), Fabric Content Registries (v0), Fabric Lifecycle Events (v1), Fabric Resource Conditions API (v1), Fabric Item API (v1), Fabric Screen API (v1), Fabric Object Builder API (v1), Fabric Rendering Data Attachment (v1), Fabric Transfer API (v1), Fabric API Base, Fabric API, Fabric Screen Handler API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Transitive Access Wideners (v1), Fabric Entity Events (v1))
+[21:15:22] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[21:15:26] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[21:15:26] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21:15:26] [Render thread/INFO] (Minecraft) OpenAL initialized on device Corsair VOID ELITE USB Gaming Headset Stéréo analogique
+[21:15:26] [Render thread/INFO] (Minecraft) Sound engine started
+[21:15:26] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[21:15:26] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:15:26] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:15:26] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:15:26] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:15:26] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:15:26] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:15:27] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21:15:28] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:15:28] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:15:28] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:15:47] [Worker-Bootstrap-3/INFO] (Minecraft) 4445 Datafixer optimizations took 35569 milliseconds
+[21:15:58] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[21:15:58] [Render thread/INFO] (Minecraft) Loaded 1179 advancements
+[21:15:59] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 1.387 ms
+[21:15:59] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.3
+[21:15:59] [Server thread/INFO] (Minecraft) Generating keypair
+[21:16:00] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[21:16:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:16:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:16:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:16:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:16:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:16:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:16:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 10%
+[21:16:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 76%
+[21:16:04] [Render thread/INFO] (Minecraft) Time elapsed: 3731 ms
+[21:16:04] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[21:16:04] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[21:16:04] [Server thread/INFO] (Minecraft) Player339[local:E:5e190f2b] logged in with entity id 230 at (12.051589562002011, 78.0, 53.480634121882524)
+[21:16:04] [Server thread/INFO] (Minecraft) Player339 joined the game
+[21:16:05] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[21:16:07] [Server thread/INFO] (Minecraft) [Not Secure] <Player339> tt
+[21:16:07] [Render thread/INFO] (Minecraft) [CHAT] <Player339> tt
+[21:16:13] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
+[21:16:13] [Render thread/INFO] (Minecraft) [System] [CHAT] pok<--[HERE]
+[21:16:46] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
+[21:16:46] [Render thread/INFO] (Minecraft) [System] [CHAT] pokpok<--[HERE]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /advancement (grant|revoke)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /attribute <target> <attribute> (get|base|modifier)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /bossbar (add|remove|list|set|get)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /clear [<targets>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /clone <begin> <end> <destination> [replace|masked|filtered]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /data (merge|get|remove|modify)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /datapack (enable|disable|list)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /debug (start|stop|function)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /defaultgamemode <gamemode>
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /difficulty [peaceful|easy|normal|hard]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /effect (clear|give)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /me <action>
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /enchant <targets> <enchantment> [<level>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /experience (add|set|query)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /xp -> experience
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /fillbiome <from> <to> <biome> [replace]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /forceload (add|remove|query)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /function <name>
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /gamemode <gamemode> [<target>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /give <targets> <item> [<count>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /help [<command>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /item (replace|modify)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /kick <targets> [<reason>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /kill [<targets>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /list [uuids]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /locate (structure|biome|poi)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /loot (replace|insert|give|spawn)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /msg <targets> <message>
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /tell -> msg
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /w -> msg
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /particle <name> [<pos>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /place (feature|jigsaw|structure|template)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /reload
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /recipe (give|take)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /say <message>
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /schedule (function|clear)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /scoreboard (objectives|players)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /seed
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /setblock <pos> <block> [destroy|keep|replace]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /spawnpoint [<targets>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /setworldspawn [<pos>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /spectate [<target>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /summon <entity> [<pos>]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /tag <targets> (add|remove|list)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /team (list|add|remove|empty|join|leave|modify)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /teammsg <message>
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /tm -> teammsg
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /teleport (<location>|<destination>|<targets>)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /tp -> teleport
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /tellraw <targets> <message>
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /time (set|add|query)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /trigger <objective> [add|set]
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /weather (clear|rain|thunder)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /worldborder (add|set|center|damage|get|warning)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /test (runthis|runthese|runfailed|run|runall|export|exportthis|import|pos|create|clearall)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /jfr (start|stop)
+[21:16:48] [Render thread/INFO] (Minecraft) [System] [CHAT] /publish [<allowCommands>]
+[21:17:12] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
+[21:17:12] [Render thread/INFO] (Minecraft) [System] [CHAT] kick<--[HERE]
+[21:17:15] [Server thread/INFO] (Minecraft) [Player339: Kicked Player339: Kicked by an operator]
+[21:17:15] [Server thread/INFO] (Minecraft) Player339 lost connection: Kicked by an operator
+[21:17:15] [Server thread/INFO] (Minecraft) Player339 left the game
+[21:17:15] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[21:17:15] [Server thread/INFO] (Minecraft) Stopping server
+[21:17:15] [Server thread/INFO] (Minecraft) Saving players
+[21:17:15] [Server thread/INFO] (Minecraft) Saving worlds
+[21:17:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:overworld
+[21:17:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_end
+[21:17:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_nether
+[21:17:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Minecraft Modding): All chunks are saved
+[21:17:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:17:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:17:16] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[21:17:20] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[21:17:20] [Render thread/INFO] (Minecraft) Loaded 1179 advancements
+[21:17:20] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 128.7 μs
+[21:17:20] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.3
+[21:17:20] [Server thread/INFO] (Minecraft) Generating keypair
+[21:17:21] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[21:17:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:17:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:17:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:17:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:17:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:17:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 63%
+[21:17:24] [Render thread/INFO] (Minecraft) Time elapsed: 2634 ms
+[21:17:24] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[21:17:24] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[21:17:24] [Server thread/INFO] (Minecraft) Player339[local:E:c6d65f9e] logged in with entity id 1055 at (23.229017611992575, 72.0, 85.04137356827755)
+[21:17:24] [Server thread/INFO] (Minecraft) Player339 joined the game
+[21:17:24] [Render thread/INFO] (Minecraft) Loaded 0 advancements
+[21:17:25] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:17:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:overworld
+[21:17:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_end
+[21:17:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_nether
+[21:17:30] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown or incomplete command, see below for error
+[21:17:30] [Render thread/INFO] (Minecraft) [System] [CHAT] ban<--[HERE]
+[21:17:49] [Render thread/INFO] (Minecraft) Loaded 3 advancements
+[21:18:01] [Server thread/INFO] (Minecraft) [Not Secure] <Player339> ttt
+[21:18:01] [Render thread/INFO] (Minecraft) [CHAT] <Player339> ttt
+[21:18:03] [Server thread/INFO] (Minecraft) [Not Secure] <Player339> ttt
+[21:18:03] [Render thread/INFO] (Minecraft) [CHAT] <Player339> ttt
+[21:18:25] [Render thread/INFO] (Minecraft) [STDOUT]: hey
+[21:18:25] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:18:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:overworld
+[21:18:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_end
+[21:18:25] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_nether
+[21:19:08] [Render thread/INFO] (Minecraft) [STDOUT]: hey
+[21:19:08] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:19:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:overworld
+[21:19:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_end
+[21:19:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_nether
+[21:19:42] [Render thread/INFO] (fabric-screen-api-v1) Stopping!
+[21:19:42] [Server thread/INFO] (Minecraft) Player339 lost connection: Disconnected
+[21:19:42] [Server thread/INFO] (Minecraft) Player339 left the game
+[21:19:42] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[21:19:42] [Server thread/INFO] (Minecraft) Stopping server
+[21:19:42] [Server thread/INFO] (Minecraft) Saving players
+[21:19:42] [Server thread/INFO] (Minecraft) Saving worlds
+[21:19:43] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:overworld
+[21:19:43] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_end
+[21:19:43] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Minecraft Modding]'/minecraft:the_nether
+[21:19:43] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Minecraft Modding): All chunks are saved
+[21:19:43] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:19:43] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:19:43] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
