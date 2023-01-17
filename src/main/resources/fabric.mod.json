@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "slowclient",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "SlowClient",
+  "description": "Client-side mod adding quality of life functionalities.",
   "authors": [
-    "Me!"
+    "ZeyX (Slowyx)"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT Licence",
+  "icon": "assets/slowclient/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "fr.zeyx.slowclient.SlowClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "slowclient.mixins.json"
   ],
 
   "depends": {
